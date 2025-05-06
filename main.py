@@ -9,9 +9,9 @@ app = FastAPI()
 
 # PostgreSQL connection details
 conn = psycopg2.connect(
-    dbname="ShopTalk",
+    dbname="",
     user="postgres",
-    password="chicken",
+    password="",
     host="localhost",
     port="5432"
 )
